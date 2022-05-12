@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Javascript switching input boxes</title>
+        <link rel="stylesheet" href="iw_examples.css"/>
+        <meta charset="utf-8"/>
+<!--
+
+WEB EGINEERING COURSE - University of L'Aquila 
+
+This example shows how form fields can be changed to static texts which
+become editable only by clicking an edit button. This technique
+allows to protect form data from unwanted modification. The server
+receives the form data as they were sent by the original form
+controls.
+
+See the course homepage: http://www.di.univaq.it/gdellape/students.php
+
+-->
+
+    <script type="text/javascript" src="simpleswitchededitor.js">
+    </script>
+    <style type="text/css">.edit-button { margin: 0 5px; }
+    .switched-static { border-bottom: 1px solid #CDCDCD; }</style>
+  </head>
+  <body>
+    <h1 class="sezione">Alternative input controls</h1>
+    <p>In this example the script converts all input controls,
+    except for those with the 
+    <i>nonswitched</i>class, into static texts whose value can only
+    be changed by clicking on their edit icon. This approach is
+    useful for protecting the controls from accidental changes.</p>
+    <p>Nothing changes in the submission process: the server will
+    still receive the data as if they came from the original input
+    controls ( indeed this is just what happens "behind the
+    scenes"). If the script is not executed, the document shows
+    normal input controls.</p>
+    <form method="get" action="#">
+      <p>Example 1: this is an input control 
+      <input name="pippo1" type="text" value="Value1" /></p>
+      <p>Example 2: this is an input control 
+      <input name="pippo2" type="text" value="Value2" /></p>
+      <p>Example 3: this is an input control with "nonswitched"
+      class 
+      <input name="pippo3" class="nonswitched" type="text"
+      value="Value3" /></p>
+      <p>
+        <input name="ok" type="submit" value="Send" />
+      </p>
+    </form>
+  </body>
+</html>
