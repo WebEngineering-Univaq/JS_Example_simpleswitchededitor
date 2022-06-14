@@ -1,7 +1,6 @@
 # JS_Example_simpleswitchededitor
 > Simple Javascript-powered smart input controls
 
-
 This example shows how to use javascript to enhance on-the-fly some form input controls.
 
 ## Usage
@@ -17,5 +16,5 @@ Simply download the code and open the provided html file in your browser.
  
 ---
 
-![University od L'Aquila](https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png)
+![University of L'Aquila](https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png)
 
